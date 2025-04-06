@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Магазин</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body> 
+    <div class="container">
+        <h1>Магазин</h1>
+        <p><em><strong>Каталог</strong></em></p>
+        
+        <div class="card bg-yellow">
+        <h2>Смартфоны</h2> 
+        <ul>
+            <li><a href="https://samsung.com" target="_blank">Samsung</a></li>
+            <li><a href="https://Huawei.com" target="_blank">Huawei</a></li>
+        </ul>
+        </div>
+        
+        <div class="card bg-green">
+        <h2>Ноутбуки</h2>
+        <ol class="list">
+            <li>Xiaomi</li>
+            <li>Huawei</li>
+        </ol>
+        </div>
+        
+        <div class="card bg-red">
+            <img alt="Тут компик" src="pc.avif" class="pc">
+            <div class="pc-info">
+                <h2>Компы -> <a href="pc.html" target="_blank">тут</a></h2>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Комплектующие</h2>
+            <table class="table">
+                <tr>
+                    <td>Видеокарта</td>
+                    <td>Процессор</td>
+                </tr>
+                <tr>
+                    <td>gtx 1070ti</td>
+                    <td>i7 8700k</td>
+                </tr>
+                <tr></tr>
+            </table>
+        </div>
+
+        <div class="offers">
+            <h2>Предложения</h2>
+            <form action="/">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите имя">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="text" id="email" placeholder="Введите email">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="text">Ваши предложения</label>
+                    <textarea id="text" rows="2" cols="10"></textarea>
+                </div>
+
+                <input class="btn" type="submit" value="Связаться">
+            </form>
+    </div>
+        <div class="position">
+            <div class="box"></div>
+        </div>
+    </div>
+
+
+</body>
+</html>
